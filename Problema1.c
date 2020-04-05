@@ -15,7 +15,7 @@ int main(int argc, char *argv[]) {
 		printf("1.Caldera\n");
 		printf("2.Tierra Amarilla\n");
 		scanf("%i", &opcion);
-		if(opcion<1||opcion>3){
+		if(opcion<1||opcion>2){
 			printf("Error, intente nuevamente.\n");
 		}		
 	}while(opcion<1||opcion>2);
